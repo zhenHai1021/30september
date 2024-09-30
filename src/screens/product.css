@@ -1,0 +1,94 @@
+.product-detail {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-detail img {
+    width: 400px;
+    height: 400px;
+    margin-right: 20px;
+  }
+  
+  .product-detail .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .product-detail .description p {
+    margin-bottom: 10px;
+  }
+
+ 
+/* CSS */
+.button-24 {
+  background: #3e8e41;
+  border: 1px solid #3e8e41;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #3e8e41;
+}
+
+.button-24:active {
+  opacity: .5;
+}
+
+
+.middle-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+  list-style-type: none;
+}
+
+form {
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+
+button[type="submit"] {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}

@@ -1,0 +1,121 @@
+/* styles.css */
+.top-nav-section {
+    background-color: #5B36B7;
+    padding: 1em;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .top-nav-section a {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+    transition: color 0.2s ease;
+  }
+  
+  .top-nav-section a:hover {
+    color: #666;
+  }
+  
+  .top-nav-section a.active {
+    color: white;
+  }
+
+  .top-nav-section .home-button {
+    background-color: #5B36B7;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .top-nav-section .home-button:hover {
+    background-color: #E1D5F9;
+    color: #333;
+  }
+
+  header {
+    display: fill;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+  }
+
+  @media (max-width: 768px) {
+    .top-nav-section {
+      flex-direction: column;
+      align-items: center;
+    }
+    .top-nav-section a {
+      margin-bottom: 10px;
+    }
+  }
+
+/* styles.css */
+body {
+  background-color: whitesmoke;
+}
+
+
+.button-53 {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-53:focus {
+  text-decoration: none;
+}
+
+.button-53:hover {
+  text-decoration: none;
+}
+
+.button-53:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-53:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .connect-wallet {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.connect-wallet {
+  color: white;
+  padding-left: 20px;
+  
+}
